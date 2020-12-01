@@ -6,15 +6,15 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-# Review.destroy_all
-# #Deleting Games
-# puts "Deleting Games"
- Game.destroy_all
+Review.destroy_all
+#Deleting Games
+puts "Deleting Games"
+Game.destroy_all
 
 
-# #Deleting Users
-# puts "Deleting Users"
- User.destroy_all
+#Deleting Users
+puts "Deleting Users"
+User.destroy_all
 
 #Creating Games
 puts "Creating Games"
@@ -55,8 +55,8 @@ review = [
         like: 0,
         content: "something",
         playtime:  10,
-        user_id: 1,
-        game_id: 1
+        user_id: User.first.id,
+        game_id: Game.first.id
     }
 ]
     review.each do |reviewHash| 
