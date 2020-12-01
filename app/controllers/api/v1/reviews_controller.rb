@@ -8,6 +8,7 @@ class Api::V1::ReviewsController < ApplicationController
     def show
         review = Review.find(params[:id])
         render json: review
+    end
 
     def create
         review = Review.create!(review_params)
@@ -16,7 +17,9 @@ class Api::V1::ReviewsController < ApplicationController
     
     def update
         review = Review.find(params[:id])
+        review.update!(like: params[:like])
         render json: review
+    end
 
     def destroy
         review = Review.find(params[:id])
