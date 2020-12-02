@@ -6,11 +6,13 @@ class Api::V1::ReviewsController < ApplicationController
     end
 
     def show
+      # byebug
         review = Review.find(params[:id])
         render json: review
     end
 
     def create
+        # byebug
         review = Review.create!(review_params)
         render json: review
     end

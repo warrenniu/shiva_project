@@ -64,6 +64,15 @@ review = [
         playtime:  10,
         user_id: User.first.id,
         game_id: Game.first.id
+    },
+    {
+      title: "Review 2",
+        rating: 4,
+        like: 0,
+        content: "something",
+        playtime:  10,
+        user_id: User.first.id,
+        game_id: Game.first.id
     }
 ]
     review.each do |reviewHash| 
