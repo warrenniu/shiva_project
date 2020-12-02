@@ -25,6 +25,13 @@ games = [
         overall_rating: 4.5.to_f,
         image: "https://img.redbull.com/images/c_fill,w_1500,h_1000,g_auto/f_auto,q_auto/redbullcom/2014/05/26/1331654176608_2/the-best-game-series-open-world-games.jpg",
         description: "Game One description"
+    },
+    {
+        title: "Second Game test",
+        release_date: "Octover, 2nd, 2020",
+        overall_rating: 4.2.to_f,
+        image:"https://img.gurugamer.com/resize/740x-/2020/10/13/among-us-poster-ee5b.jpg",
+        description: "Greatest game of all time"
     }
 ]
 games.each do |gameHash| 
