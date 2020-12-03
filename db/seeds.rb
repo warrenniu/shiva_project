@@ -20,11 +20,17 @@ User.destroy_all
 puts "Creating Games"
 games = [
     {
-        title: "Test Game One",
-        release_date: "September 1st, 2020",
-        overall_rating: 4.5.to_f,
-        image: "https://img.redbull.com/images/c_fill,w_1500,h_1000,g_auto/f_auto,q_auto/redbullcom/2014/05/26/1331654176608_2/the-best-game-series-open-world-games.jpg",
-        description: "Game One description"
+        title: "Final Fantasy VII: Remake",
+        release_date: "April 10th, 2020",
+        overall_rating: 4.6.to_f,
+        image: "https://assets1.ignimgs.com/2020/04/06/final-fantasy-vii-remake---button-fin-1586205679705.jpg",
+        description: "A spectacular reimagining of one of the most visionary games ever, FINAL FANTASY VII REMAKE rebuilds and expands the legendary RPG for today.
+
+        The first game in the FINAL FANTASY VII REMAKE project, delivering a level of depth inconceivable for the original. Mind-blowing story, unforgettable characters, epic battles and technical excellence collide.
+        
+        The world has fallen under the control of the Shinra Electric Power Company, a shadowy corporation controlling the planet's very life force as mako energy.
+        
+        In the sprawling city of Midgar, an anti-Shinra organization calling themselves Avalanche have stepped up their resistance. Cloud Strife, a former member of Shinra's elite SOLDIER unit now turned mercenary, lends his aid to the group, unaware of the epic consequences that await him."
     },
     {
         title: "Second Game test",
