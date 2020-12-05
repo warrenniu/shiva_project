@@ -48,6 +48,14 @@ games = [
         description: "Blend your style and experience on a global, competitive stage. You have 13 rounds to attack and defend your side using sharp gunplay and tactical abilities. And, with one life per-round, you'll need to think faster than your opponent if you want to survive. Take on foes across Competitive and Unranked modes as well as Deathmatch and Spike Rush."
     },
     {
+        title: "Fortnite",
+        release_date: "June 25th, 2017",
+        platform: "PC",
+        overall_rating: 4.5.to_f,
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.EM14ofT51dKlUaJ5HMDB5gHaNK%26pid%3DApi&f=1",
+        description: "Fortnite is at heart a battle royale game, developed by Epic Games. In it, players drop into a map, either on their own or with a team, alongside 99 other players. After landing, it’s a mad dash to pick up as many weapons and items as possible, all while working your way toward the center of the map. Whoever is the last player standing wins the match."
+    },
+    {
         title: "Forza Horizon 4",
         release_date: "September 28th, 2018",
         platform: "Xbox",
@@ -62,6 +70,14 @@ games = [
         overall_rating: 4.8.to_f,
         image:"https://m.media-amazon.com/images/I/51Gr9-eTgLL.jpg",
         description: "Living as a man outside the shadow of the gods, Kratos must adapt to unfamiliar lands, unexpected threats, and a second chance at being a father. Together with his son Atreus, the pair will venture into the brutal Norse wilds and fight to fulfill a deeply personal quest."
+    },
+    {
+        title: "Apex Legends",
+        release_date: "February 4th, 2019",
+        platform: "PC",
+        overall_rating: 4.7.to_f,
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimgix.ranker.com%2Fuser_node_img%2F4269%2F85376617%2Foriginal%2Fapex-legends-photo-u1%3Ffm%3Dpjpg%26q%3D80&f=1&nofb=1",
+        description: "Conquer with character in Apex Legends, a free-to-play* Battle Royale shooter where legendary characters with powerful abilities team up to battle for fame & fortune on the fringes of the Frontier."
     },
     {
         title: "Call of Duty: Modern Warfare",
