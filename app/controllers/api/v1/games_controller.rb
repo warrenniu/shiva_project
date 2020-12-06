@@ -10,6 +10,11 @@ class Api::V1::GamesController < ApplicationController
         render json:game 
     end
 ##Yooooo
+
+    def create
+        game = Game.create!(game_params)
+        render json: game
+    end
     
 
     private 
