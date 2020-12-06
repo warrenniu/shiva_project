@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 2020_12_04_182151) do
     t.string "description"
     t.string "image"
     t.string "release_date"
-    t.integer "overall_rating"
+    t.float "overall_rating"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.string "platform"

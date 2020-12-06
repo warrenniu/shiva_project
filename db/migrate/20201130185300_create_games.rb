@@ -5,7 +5,7 @@ class CreateGames < ActiveRecord::Migration[6.0]
       t.string :description
       t.string :image
       t.string :release_date
-      t.integer :overall_rating
+      t.float :overall_rating
 
       t.timestamps
     end

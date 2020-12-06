@@ -15,7 +15,7 @@ class Api::V1::GamesController < ApplicationController
     private 
 
     def game_params
-        params.permit(:title, :description , :image ,:release_date, :overall_rating, :platform) 
+        params.permit(:title, :description , :image ,:release_date, :platform) 
     end
     
 end
