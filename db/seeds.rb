@@ -145,22 +145,33 @@ end
 puts "Creating Review "
 review = [
     {
-        title: "Title",
+        title: "I waited 15 years for this moment",
+        rating: 5,
+        like: 0,
+        content: "Final Fantasy 7 Remake is a spectacle, easily one of the best-looking games I've ever played. But the man hours that went into it are evident beyond its technical prowess. It's not just how visually arresting the game is: The environments, from the neon Wall Market red light district to the sterile Mako reactors, are dense with detail and feel like they live and breathe.",
+        playtime:  40,
+        user_id: User.first.id,
+        game_id: Game.first.id
+    },
+    {
+      title: "Not as good as the original, but still worth the $60",
         rating: 4,
         like: 0,
-        content: "something",
+        content: "Some super-fans have griped that expanding the story has caused the remake to become bloated, but the original story was often delivered in a rushed, breathless manner, and it now has time to unfold in a more detailed way, and the overarching story arc has been preserved. That said, Final Fantasy VII Remake elevates the original to new heights. It looks spectacularly good, but, more importantly, its gameplay has acquired a modern sheen without losing what made the game distinct in the first place. The insertion of new action sequences and the expansion of existing ones adds welcome variation, and it’s very meaty, too, with over 30 hours of gameplay on offer.
+
+        What you get here is only the first half of the original game – a second, concluding instalment will arrive at a time as yet unspecified by Square Enix. Remaking a universally acclaimed classic was always a fearful responsibility, but like its own sword-wielding heroes, Square Enix has risen to the challenge spectacularly.",
         playtime:  10,
         user_id: User.first.id,
         game_id: Game.first.id
     },
     {
-      title: "Review 2",
-        rating: 2,
+      title: "A Must Play",
+        rating: 5,
         like: 0,
-        content: "something",
-        playtime:  10,
+        content: "Ghost of Tsushima captures the mystique, fierce violence, and barely contained emotional angst of the great samurai films. The line of inspiration is clearly purposeful; Sucker Punch included a gorgeous “Kurosawa Mode,” which sets a black-and-white, film-grain, audio-treated effect that doubles down on the classic cinematic vibe. It’s well worth turning on, if only for a few missions. But even beyond that cool feature, this is a game that nails the aesthetic it’s shooting for, firmly establishing itself as the medium’s defining samurai saga.",
+        playtime:  70,
         user_id: User.first.id,
-        game_id: Game.first.id
+        game_id: Game.second.id
     }
 ]
     review.each do |reviewHash| 
