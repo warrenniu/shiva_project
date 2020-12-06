@@ -169,7 +169,7 @@ review = [
     },
     {
       title: "Review 2",
-        rating: 4,
+        rating: 2,
         like: 0,
         content: "something",
         playtime:  10,
