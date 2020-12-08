@@ -7,6 +7,8 @@ ruby '2.6.1'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
+#dotenv to hide api keys
+gem 'dotenv-rails', groups: [:development, :test]
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -41,3 +43,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "active_model_serializers", "~> 0.10.10"
+
+#rest-client to communicate with API
+gem 'rest-client'
